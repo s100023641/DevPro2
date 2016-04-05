@@ -1,0 +1,25 @@
+CREATE TABLE StockableItems
+(
+  ItemID INTEGER NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(10),
+  Quantity INTEGER(10),
+  PRIMARY KEY (ItemID)
+);
+
+CREATE TABLE OrderSale
+(
+  OrderNum INTEGER NOT NULL AUTO_INCREMENT,
+  Timestamp TIMESTAMP,
+  PRIMARY KEY (OrderNum)
+);
+
+CREATE TABLE OrderItem
+(
+  OrderNum INTEGER,
+  ItemID INTEGER, 
+  ItemAmount INTEGER(3),
+  Price DECIMAL(3,2),
+  PRIMARY KEY (OrderNum, ItemID), 
+  FOREIGN KEY (OrderNum) REFERENCES OrderSale(OrderNum),
+  FOREIGN KEY (ItemID) REFERENCES StockableItems(ItemID)
+);
