@@ -1,7 +1,11 @@
+CREATE DATABASE pharmacydb;
+
+USE pharmacydb;
+
 CREATE TABLE StockableItems
 (
   ItemID INTEGER NOT NULL AUTO_INCREMENT,
-  Name VARCHAR(10),
+  Name VARCHAR(64),
   Quantity INTEGER(10),
   PRIMARY KEY (ItemID)
 );
@@ -18,7 +22,7 @@ CREATE TABLE OrderItem
   OrderNum INTEGER,
   ItemID INTEGER, 
   ItemAmount INTEGER(3),
-  Price DECIMAL(3,2),
+  Price DECIMAL(8,2),
   PRIMARY KEY (OrderNum, ItemID), 
   FOREIGN KEY (OrderNum) REFERENCES OrderSale(OrderNum),
   FOREIGN KEY (ItemID) REFERENCES StockableItems(ItemID)
