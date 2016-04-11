@@ -1,0 +1,11 @@
+--
+-- WIP select data for monthly, currently making a better version
+--
+
+SELECT OrderItem.OrderNum, OrderItem.ItemID, StockableItems.Name, OrderItem.ItemAmount, OrderItem.Price, OrderSale.Timestamp
+FROM OrderItem
+INNER JOIN OrderSale
+ON OrderItem.OrderNum=OrderSale.OrderNum
+INNER JOIN StockableItems
+ON OrderItem.ItemID=StockableItems.ItemID
+ORDER BY TimeStamp;
