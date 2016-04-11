@@ -8,5 +8,5 @@ INNER JOIN OrderSale
 ON OrderItem.OrderNum=OrderSale.OrderNum
 INNER JOIN StockableItems
 ON OrderItem.ItemID=StockableItems.ItemID
-GROUP BY OrderItem.ItemID
+GROUP BY OrderItem.ItemID, MONTH(OrderSale.TimeStamp)
 ORDER BY OrderSale.TimeStamp;
