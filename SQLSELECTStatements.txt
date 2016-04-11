@@ -2,7 +2,7 @@
 -- WIP select data for monthly, currently making a better version
 --
 
-SELECT OrderItem.OrderNum, COUNT(OrderItem.ItemID) as ItemSales, StockableItems.Name, OrderItem.ItemAmount, OrderItem.Price, SUM(Price) as TotalSales, OrderSale.Timestamp
+SELECT OrderItem.OrderNum, COUNT(OrderItem.ItemID) as ItemSales, StockableItems.Name, OrderItem.ItemAmount, OrderItem.Price, (COUNT(OrderItem.ItemID) * OrderItem.Price) as TotalSales, OrderSale.Timestamp
 FROM OrderItem
 INNER JOIN OrderSale
 ON OrderItem.OrderNum=OrderSale.OrderNum
