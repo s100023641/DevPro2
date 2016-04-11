@@ -1,0 +1,9 @@
+CREATE TABLE SalesRecord
+(
+  InvoiceNumber AutoNumber,
+  ItemID INTEGER, 
+  Price DECIMAL(8,2),
+  Timestamp TIMESTAMP,
+  PRIMARY KEY (InvoiceNumber),
+  FOREIGN KEY (ItemID) REFERENCES StockableItems(ItemID)
+);
