@@ -20,7 +20,7 @@ INSERT INTO `stockableitems` (`ItemID`, `Name`, `Quantity`) VALUES
 (7, 'toothpaste' 30);
 (8, 'Dettol' 50);
 (9, 'Vicks' 45);
-(10, Mentos' 20);
+(10, 'Mentos' 20);
 (11, 'prescriptions pills' 100);
 (12, 'deodorant' 40);
 (13, 'condoms' 30);
