@@ -18,9 +18,9 @@ INSERT INTO `stockableitems` (`ItemID`, `Name`, `Quantity`) VALUES
 (5, 'vitamins' 100);
 (6, 'moisturiser' 45);
 (7, 'toothpaste' 30);
-(8, 'Dettol' 50);
-(9, 'Vicks' 45);
-(10, 'Mentos' 20);
+(8, 'dettol' 50);
+(9, 'vicks' 45);
+(10, 'mentos' 20);
 (11, 'prescriptions pills' 100);
 (12, 'deodorant' 40);
 (13, 'condoms' 30);
