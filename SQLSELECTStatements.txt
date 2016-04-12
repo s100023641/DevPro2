@@ -1,8 +1,8 @@
 --
--- WIP select data for monthly, currently making a better version
+-- WIP select data for monthly 
 --
-
-SELECT OrderItem.OrderNum, COUNT(OrderItem.ItemID) as ItemSales, StockableItems.Name, OrderItem.ItemAmount, OrderItem.Price, (COUNT(OrderItem.ItemID) * OrderItem.Price) as TotalSales, OrderSale.Timestamp
+SELECT COUNT(OrderItem.ItemID) as ItemSales, StockableItems.Name, OrderItem.ItemAmount,
+OrderItem.Price, (COUNT(OrderItem.ItemID) * OrderItem.Price) as TotalSales, MONTHNAME(OrderSale.Timestamp) as Month
 FROM OrderItem
 INNER JOIN OrderSale
 ON OrderItem.OrderNum=OrderSale.OrderNum
@@ -10,3 +10,31 @@ INNER JOIN StockableItems
 ON OrderItem.ItemID=StockableItems.ItemID
 GROUP BY OrderItem.ItemID, MONTH(OrderSale.TimeStamp)
 ORDER BY OrderSale.TimeStamp;
+
+--
+-- WIP select data for Weekly 
+--
+
+SELECT COUNT(OrderItem.ItemID) as ItemSales, StockableItems.Name, OrderItem.ItemAmount,
+OrderItem.Price, (COUNT(OrderItem.ItemID) * OrderItem.Price) as TotalSales, DATE_FORMAT(OrderSale.Timestamp, '%D %M') as Week
+FROM OrderItem
+INNER JOIN OrderSale
+ON OrderItem.OrderNum=OrderSale.OrderNum
+INNER JOIN StockableItems
+ON OrderItem.ItemID=StockableItems.ItemID
+GROUP BY OrderItem.ItemID, WEEK(OrderSale.TimeStamp)
+ORDER BY OrderSale.TimeStamp;
+
+--
+-- WIP select data for Overview of total sales
+--
+
+SELECT COUNT(OrderItem.ItemID) as ItemSales, StockableItems.Name, OrderItem.ItemAmount,
+OrderItem.Price, (COUNT(OrderItem.ItemID) * OrderItem.Price) as TotalSales
+FROM OrderItem
+INNER JOIN OrderSale
+ON OrderItem.OrderNum=OrderSale.OrderNum
+INNER JOIN StockableItems
+ON OrderItem.ItemID=StockableItems.ItemID
+GROUP BY OrderItem.ItemID
+ORDER BY ItemSales DESC;
