@@ -8,3 +8,11 @@ C:\Users\Luke\Documents\Visual Studio 2012\Projects\ShopDatabaseFrontEnd\ShopDat
 C:\Users\Luke\Documents\Visual Studio 2012\Projects\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.exe
 C:\Users\Luke\Documents\Visual Studio 2012\Projects\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.pdb
 C:\Users\Luke\Documents\Visual Studio 2012\Projects\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\MySql.Data.dll
+E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.exe.config
+E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csprojResolveAssemblyReference.cache
+E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.Form1.resources
+E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.Properties.Resources.resources
+E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csproj.GenerateResource.Cache
+E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmSales.resources
+E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmHome.resources
+E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmStock.resources
