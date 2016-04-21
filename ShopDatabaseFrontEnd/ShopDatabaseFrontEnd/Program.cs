@@ -16,7 +16,8 @@ namespace ShopDatabaseFrontEnd
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHome());
+            Application.Run(AppController.Main=new AppController());
+
         }
     }
 }

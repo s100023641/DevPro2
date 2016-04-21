@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data;
-using MySql.Data.MySqlClient;
+//using MySql.Data;
+//using MySql.Data.MySqlClient;
 
 namespace ShopDatabaseFrontEnd
 {
@@ -27,7 +27,7 @@ namespace ShopDatabaseFrontEnd
 
         }
         public void SetListBox() {
-            listBox1.Items.Clear();
+            /*listBox1.Items.Clear();
             string connStr = "server=localhost;user=root;database=pharmacydb;port=3306;";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
@@ -52,7 +52,7 @@ namespace ShopDatabaseFrontEnd
                 Console.WriteLine(ex.ToString());
             }
             conn.Close();
-            Console.WriteLine("Done.");
+            Console.WriteLine("Done.");*/
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -88,7 +88,7 @@ namespace ShopDatabaseFrontEnd
 
         private void button3_Click(object sender, EventArgs e)
         {
-            new frmHome().Show();
+            AppController.Main.Back();
         }
     }
 }

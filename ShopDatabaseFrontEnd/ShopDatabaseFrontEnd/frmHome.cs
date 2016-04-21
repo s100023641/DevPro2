@@ -19,7 +19,7 @@ namespace ShopDatabaseFrontEnd
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new frmAddSales().Show();
+            AppController.Main.ChangeState("AddSales");
         }
 
         private void button2_Click(object sender, EventArgs e)

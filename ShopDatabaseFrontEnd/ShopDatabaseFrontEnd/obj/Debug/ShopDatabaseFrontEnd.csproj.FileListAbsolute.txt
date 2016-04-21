@@ -16,3 +16,15 @@ E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\ob
 E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmSales.resources
 E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmHome.resources
 E:\Uni 2016\Dev 2\temp 21.4\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmStock.resources
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.exe.config
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csprojResolveAssemblyReference.cache
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmHome.resources
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmAddSales.resources
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmSales.resources
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmStock.resources
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.Properties.Resources.resources
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csproj.GenerateResource.Cache
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.exe
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.pdb
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.exe
+D:\Users\Luke A Sutherland\Documents\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.pdb
