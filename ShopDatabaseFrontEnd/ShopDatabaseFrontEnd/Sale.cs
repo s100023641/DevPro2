@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using MySql.Data;
-//using MySql.Data.MySqlClient;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace ShopDatabaseFrontEnd
 {
@@ -46,7 +46,7 @@ namespace ShopDatabaseFrontEnd
         }
 
         public void RecordToDatabase() {
-        /*    string connStr = "server=localhost;user=root;database=pharmacydb;port=3306;";
+            string connStr = "server=localhost;user=root;database=pharmacydb;port=3306;";
             MySqlConnection conn = new MySqlConnection(connStr);
             try
             {
@@ -78,7 +78,7 @@ namespace ShopDatabaseFrontEnd
             
             Console.WriteLine("Done.");
                //insert sale at currentTime
-                */
+                
 
             //close database boiler plate code;
         }

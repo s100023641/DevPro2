@@ -19,17 +19,17 @@ namespace ShopDatabaseFrontEnd
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AppController.Main.ChangeState("AddSales");
+            AppController.Main.ChangeState("Sales");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new frmStock().Show();
+            AppController.Main.ChangeState("Stock");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            new frmAddSales().Show();
+            AppController.Main.ChangeState("AddSales");
         }
     }
 }
