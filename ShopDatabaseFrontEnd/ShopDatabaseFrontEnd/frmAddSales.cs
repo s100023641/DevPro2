@@ -42,7 +42,8 @@ namespace ShopDatabaseFrontEnd
                 MySqlCommand cmd = new MySqlCommand(sqlText, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 
-                while(rdr.Read()){
+                while(rdr.Read())
+                {
                 listBox1.Items.Add(rdr[1]);
                 }
                 rdr.Close();

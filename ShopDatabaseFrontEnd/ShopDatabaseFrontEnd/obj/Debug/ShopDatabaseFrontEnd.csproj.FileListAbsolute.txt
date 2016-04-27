@@ -54,3 +54,15 @@ C:\Users\Josh\Desktop\Temp\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\S
 C:\Users\Josh\Desktop\Temp\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\MySql.Data.dll
 C:\Users\Josh\Desktop\Temp\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.exe
 C:\Users\Josh\Desktop\Temp\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.pdb
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.exe.config
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.exe
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.pdb
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.exe
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.pdb
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csprojResolveAssemblyReference.cache
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmHome.resources
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmAddSales.resources
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmSales.resources
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmStock.resources
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.Properties.Resources.resources
+F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csproj.GenerateResource.Cache
