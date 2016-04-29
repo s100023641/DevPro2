@@ -43,6 +43,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button3
@@ -136,16 +138,16 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(606, 396);
+            this.textBox1.Location = new System.Drawing.Point(558, 396);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 25;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(830, 395);
+            this.textBox2.Location = new System.Drawing.Point(942, 396);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(70, 22);
             this.textBox2.TabIndex = 26;
             // 
             // label4
@@ -187,11 +189,30 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(713, 475);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(133, 64);
+            this.button5.TabIndex = 32;
+            this.button5.Text = "Add a new Item";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(664, 396);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(242, 22);
+            this.textBox3.TabIndex = 33;
+            // 
             // frmStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1045, 690);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label6);
@@ -232,5 +253,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
