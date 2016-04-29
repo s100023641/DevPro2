@@ -288,5 +288,37 @@ namespace ShopDatabaseFrontEnd
             SetFilteredStockQty();
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            string connStr = "server=localhost;user=root;database=pharmacydb;port=3306;";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
+            {
+                Console.WriteLine("Connecting to MySQL...");
+                conn.Open();
+                Random r = new Random();
+                int orderNumb = r.Next();
+                // Perform database operations
+                string sqlText = "UPDATE `stockableitems` SET `Quantity`= " + textBox2.Text +" WHERE itemID = " + textBox1.Text ;
+                Console.WriteLine(sqlText);
+                MySqlCommand cmd = new MySqlCommand(sqlText, conn);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            conn.Close();
+            Console.WriteLine("Done.");
+
+            
+        }
     }
 }
