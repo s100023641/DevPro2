@@ -66,3 +66,6 @@ F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFront
 F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmStock.resources
 F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.Properties.Resources.resources
 F:\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csproj.GenerateResource.Cache
+C:\Uni\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.exe.config
+C:\Uni\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.exe
+C:\Uni\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.pdb

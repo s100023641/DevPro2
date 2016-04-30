@@ -75,7 +75,7 @@ namespace ShopDatabaseFrontEnd
         {
             Sale.SaleItem SI = new Sale.SaleItem(listBox1.Text, listBox1.SelectedIndex+1, int.Parse(textBox2.Text), double.Parse(textBox1.Text));
             Console.WriteLine(SI.buildSQL("44"));
-            textBox3.Text += SI.buildSQL("44");
+            textBox3.Text += SI.buildSQL("44") + "\r\n";
 
             CurrentSale.items.Add(SI);
             return;
@@ -85,6 +85,7 @@ namespace ShopDatabaseFrontEnd
         {
             CurrentSale.RecordToDatabase();
             CurrentSale = new Sale();
+            textBox3.Text += "Added Sales to the Databse" + "\r\n";
         }
 
         private void button3_Click(object sender, EventArgs e)
