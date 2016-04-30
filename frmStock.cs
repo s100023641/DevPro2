@@ -345,5 +345,10 @@ namespace ShopDatabaseFrontEnd
             conn.Close();
             Console.WriteLine("Done.");
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
