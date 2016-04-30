@@ -356,5 +356,34 @@ namespace ShopDatabaseFrontEnd
         {
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string connStr = "server=localhost;user=root;database=pharmacydb;port=3306;";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
+            {
+                Console.WriteLine("Connecting to MySQL...");
+                conn.Open();
+                Random r = new Random();
+                int orderNumb = r.Next();
+                // Perform database operations
+                string sqlText = "DELETE FROM stockableitems WHERE itemID = " + textBox1.Text;
+                
+                Console.WriteLine(sqlText);
+                MySqlCommand cmd = new MySqlCommand(sqlText, conn);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            conn.Close();
+            Console.WriteLine("Done.");
+            SetStockName();
+            SetStockQty();
+            SetStockID();
+
+        }
     }
 }

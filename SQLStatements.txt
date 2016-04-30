@@ -26,4 +26,5 @@ CREATE TABLE OrderItem
   PRIMARY KEY (OrderNum, ItemID), 
   FOREIGN KEY (OrderNum) REFERENCES OrderSale(OrderNum),
   FOREIGN KEY (ItemID) REFERENCES StockableItems(ItemID)
+  ON DELETE CASCADE
 );
