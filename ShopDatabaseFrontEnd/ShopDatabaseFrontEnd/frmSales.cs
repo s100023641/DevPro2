@@ -198,7 +198,8 @@ namespace ShopDatabaseFrontEnd
 
                     output += rdr[0] + "," + rdr[1] + "," + rdr[2] + "," + rdr[3] + "," + rdr[4] + "," + rdr[5]+'\n';
                 }
-                Clipboard.SetText(output);
+                //Clipboard.SetText(output);
+                System.IO.File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory+"export.csv", output);
                 rdr.Close();
             }
             catch (Exception ex)
