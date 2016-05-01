@@ -162,5 +162,51 @@ namespace ShopDatabaseFrontEnd
                     break;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string output = "";
+            string connStr = "server=localhost;user=root;database=pharmacydb;port=3306;";
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
+            {
+                Console.WriteLine("Connecting to MySQL...");
+                conn.Open();
+                Random r = new Random();
+                int orderNumb = r.Next();
+                // Perform database operations
+                string sqlText;
+                if (tabControl1.SelectedIndex == 0)
+                {
+                    sqlText = "SELECT OrderItem.ItemID, StockableItems.Name, OrderItem.ItemAmount, OrderItem.Price, MONTHNAME(ordersale.Timestamp) as Month, WEEK(ordersale.Timestamp, 5) " +
+                               "- WEEK(DATE_SUB(ordersale.Timestamp, INTERVAL DAYOFMONTH(ordersale.Timestamp) - 1 DAY), 5) + 1 as Week FROM OrderItem INNER JOIN OrderSale ON OrderItem.OrderNum = OrderSale.OrderNum " +
+                               "INNER JOIN StockableItems ON OrderItem.ItemID = StockableItems.ItemID WHERE(WEEK(ordersale.Timestamp, 5) - WEEK(DATE_SUB(ordersale.Timestamp, INTERVAL DAYOFMONTH(ordersale.Timestamp) - 1 DAY), 5) + 1) = " + week +
+                               " AND MONTH(ordersale.Timestamp) = " + month + " ORDER BY OrderSale.TimeStamp;";
+                }
+                else
+                {
+                    sqlText = "SELECT OrderItem.ItemID, StockableItems.Name, OrderItem.ItemAmount, OrderItem.Price, MONTHNAME(ordersale.Timestamp) as Month, WEEK(ordersale.Timestamp, 5) " +
+                            "- WEEK(DATE_SUB(ordersale.Timestamp, INTERVAL DAYOFMONTH(ordersale.Timestamp) - 1 DAY), 5) + 1 as Week FROM OrderItem INNER JOIN OrderSale ON OrderItem.OrderNum = OrderSale.OrderNum " +
+                            "INNER JOIN StockableItems ON OrderItem.ItemID = StockableItems.ItemID WHERE MONTH(ordersale.Timestamp) = " + month + " ORDER BY OrderSale.TimeStamp;";
+                }
+                Console.WriteLine(sqlText);
+                MySqlCommand cmd = new MySqlCommand(sqlText, conn);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+
+                while (rdr.Read())
+                {
+
+                    output += rdr[0] + "," + rdr[1] + "," + rdr[2] + "," + rdr[3] + "," + rdr[4] + "," + rdr[5]+'\n';
+                }
+                Clipboard.SetText(output);
+                rdr.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            conn.Close();
+            Console.WriteLine("Done.");
+        }
     }
 }
