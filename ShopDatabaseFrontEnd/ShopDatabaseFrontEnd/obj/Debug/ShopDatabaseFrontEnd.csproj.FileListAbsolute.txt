@@ -82,3 +82,16 @@ C:\Users\Josh\Desktop\Temp\3042\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEn
 C:\Users\Josh\Desktop\Temp\3042\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmStock.resources
 C:\Users\Josh\Desktop\Temp\3042\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.Properties.Resources.resources
 C:\Users\Josh\Desktop\Temp\3042\DevPro2\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csproj.GenerateResource.Cache
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.exe.config
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.exe
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.pdb
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.exe
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\ShopDatabaseFrontEnd.pdb
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\bin\Debug\MySql.Data.dll
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csprojResolveAssemblyReference.cache
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmHome.resources
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmAddSales.resources
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmSales.resources
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.frmStock.resources
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.Properties.Resources.resources
+C:\Users\Josh\Desktop\Temp\105\ShopDatabaseFrontEnd\ShopDatabaseFrontEnd\obj\Debug\ShopDatabaseFrontEnd.csproj.GenerateResource.Cache

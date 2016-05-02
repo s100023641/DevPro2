@@ -267,11 +267,9 @@ namespace ShopDatabaseFrontEnd
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            
             SetStockName();
             SetStockQty();
-            SetStockID();  
-
+            SetStockID();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -282,11 +280,19 @@ namespace ShopDatabaseFrontEnd
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
-            SetFilteredStockID();
-            SetFilteredStockName();
-            SetFilteredStockQty();
+            if(textBox1.Text == "")
+            {
+                SetStockName();
+                SetStockQty();
+                SetStockID();
+            }
+            else
+            {
+                SetFilteredStockID();
+                SetFilteredStockName();
+                SetFilteredStockQty();
 
+            }
         }
 
         private void label6_Click(object sender, EventArgs e)
